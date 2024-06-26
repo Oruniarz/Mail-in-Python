@@ -141,7 +141,7 @@ class Wiadomosci(QWidget):
         self.respond = respond
         self.button_palette = None
 
-        self.setWindowTitle("Button Creator")
+        self.setWindowTitle("Wiadomości")
 
         layout = QVBoxLayout()
         self.setLayout(layout)
@@ -192,7 +192,7 @@ class OknoWiadomosci(QWidget):
     def __init__(self, mail):
         super().__init__()
 
-        self.setWindowTitle('Wiadomości')
+        self.setWindowTitle('Wiadomość')
         self.setGeometry(100, 100, 300, 50)
         okno_glowne = QVBoxLayout()
         self.setLayout(okno_glowne)
